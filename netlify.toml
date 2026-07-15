@@ -1,0 +1,9 @@
+[build]
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.1.4"
+
+# Optional: if using Jekyll
+[build.processing.html]
+  pretty_urls = true
