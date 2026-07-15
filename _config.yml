@@ -1,4 +1,4 @@
-timezone:    Europe/Berlin
+timezone:    Asia/Tokyo
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
 # baseurl:     "/github-slideshow"
@@ -17,9 +17,9 @@ plugins:
   - jemoji
 
 ## personalize your slide show
-title:       github-slideshow
+title:       GitHubスライドショー
 author:      GitHubTeacher
-description: A fun activity for learning Git and GitHub.
+description: GitとGitHubを楽しく学ぶアクティビティ
 
 sass:
   style:     :compressed
@@ -42,7 +42,8 @@ slideNumber:
 ## Note that the new default vertical centering option will break compatibility with slides that were using transitions with backgrounds ("cube" and "page"). To restore the previous behavior, set "center" to "false".
 reveal:
   ## Display controls in the bottom right corner
-  controls: false
+  ## (visible navigation arrows are essential for touch/mobile users)
+  controls: true
   ## Display a presentation progress bar
   progress: true
   ## Display the page number of the current slide
